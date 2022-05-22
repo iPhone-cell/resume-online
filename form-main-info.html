@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="image/x-icon">
+ 	<link rel="shortcut icon" href="#" type="image/x-icon"> 
+ 	<!-- OG Tags -->
+	<meta property="og:title" content="#">
+	<meta property="og:description" content='#'>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#" >
+	<meta property="og:site_name" content="#">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- CSS font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+	<!-- Font Styles -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+	<!-- CSS Styles -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="navigation">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="offset-xl-1 col-lg-3 col-md-4 col-10">
+						<a href="#" class="logo">online<span>REZUME</span></a>
+					</div>
+					<div class="col-2 text-right d-sm-none">
+						<div class="hamburger">
+							<a class="menu-open">
+								<span></span>
+							</a>
+						</div>	
+					</div>
+					<div class="col-lg-4  col-md-5 col-sm-8 d-none d-sm-block menu-collapse">
+						<ul class="menu">
+							<li class="menu__list">
+								<a href="#">Резюме</a>
+							</li>
+							<li class="menu__list">
+								<a href="#">Статьи</a>
+							</li>
+							<li class="menu__list">
+								<a href="#">Примеры</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-2 col-lg-3 col-sm-4">
+						<ul>
+							<li>
+								<a href="#" class="cabinet">Личный кабинет</a> 
+								<ul class="cabinet_sub">
+									<li><a href="">Item 1</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</header>
+	<section class="main-backg" id="main-backg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="offer">
+						<span class="offer__span">БЕСПЛАТНЫЙ КОНСТРУКТОР</span>
+						<h1 class="offer__head">
+							<span>ПОЛУЧИТЕ ГРАМОТНОЕ</span>
+							РЕЗЮМЕ ВСЕГО ЗА 6 МИНУТ
+						</h1>
+						<a href="#" class="btn offer__btn">СОСТАВИТЬ РЕЗЮМЕ</a>
+					</div>
+					<div class="offer-list">
+						<div class="offer-list__item">
+							<img src="img/check.png" alt="check">
+							<p>Без регистрации</p>
+						</div>
+						<div class="offer-list__item">
+							<img src="img/check.png" alt="check">
+							<p>Профессиональный шаблон</p>
+						</div>
+						<div class="offer-list__item">
+							<img src="img/check.png" alt="check">
+							<p>Моментальная отправка работодателю</p>
+						</div>
+						<p class="offer-info">
+							Счетчик доверия: <span>1200</span>  резюме составили сегодня
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="form-main-info">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="language">
+						<h3 class="language__heading">
+							Выберите язык резюме
+						</h3>
+						<div class="language__wrap">
+							<a href="#" class="btn-language-ru">Русский</a>
+							<a href="#" class="btn-language-en">English</a>
+						</div>
+					</div>
+					<div class="accordion" id="accordion">
+						<div class="accordion-block form-rezume form-rezume-personal">
+							<div class="accordion-header">
+								<a class="accordion-link d-flex" data-toggle="collapse" href="#collapseOne">
+									<div class="form-rezume__head d-flex">
+										<img src="img/list.png">
+										<h3 class="form-rezume__heading">
+											Основная информация
+										</h3>
+									</div>
+								</a>
+							</div>
+							<div id="collapseOne" class="collapse" data-parent="#accordion">
+							  <div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="form-rezume__wrap-body">
+										<div class="form-rezume__left">
+											<div class="wrap-input">
+												<label class="form-label">
+													Фамилия <span> (обязательно)</span>
+												</label>
+												<input type="text" class="form-input">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">
+													Имя <span> (обязательно)</span>
+												</label>
+												<input type="text" class="form-input">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">
+													Отчетство
+												</label>
+												<input type="text" class="form-input">
+											</div>
+										</div>
+										<div class="form-rezume__right">
+											<img src="img/camera.png">
+											<p>
+												Нажмите, чтобы <br>прикрепить фото
+											</p>
+										</div>
+									</div>
+									<div class="block-checbox">
+										<div class="wrap-checbox d-flex">
+											<input type="checkbox">
+											<p>Готовность к командировкам</p>
+										</div>
+										<div class="wrap-checbox wrap-checbox2 d-flex">
+											<input type="checkbox">
+											<p>Готовность к переезду</p>
+										</div>
+									</div>
+									<div class="block-wrapping">
+										<div class="block-wrapping__left">
+											<div class="wrap-input">
+												<label class="form-label">Желаемая должность</label>
+												<input type="text" class="form-input form-input2">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Занятость</label>
+												<select class="form-list">
+													<option>Полная</option>
+													<option>Частичная</option>
+													<option>Проектная</option>
+													<option>Стажировка</option>
+													<option>Волонтерство</option>
+												</select>
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Телефон <span> (обязательно)</span></label>
+												<input type="text" class="form-input form-input2">
+											</div>
+										</div>
+										<div class="block-wrapping__right">
+											<div class="wrap-input">
+												<label class="form-label">Желаемая зарплата</label>
+												<input type="text" class="form-input form-input2 form-wage">
+												<select class="form-list form-list_currency">
+													<option>Валюта</option>
+													<option>руб.</option>
+													<option>дол.</option>
+													<option>тг.</option>
+													<option>евро</option>
+													<option>драм</option>
+													<option>грвн.</option>
+													<option>сом</option>
+													<option>лари</option>
+													<option>манат</option>
+												</select>
+											</div>
+		
+											<div class="wrap-input">
+												<label class="form-label">График работы</label>
+												<select class="form-list">
+													<option>Полный день</option>
+													<option>Гибкий график</option>
+													<option>Сменный график</option>
+													<option>Удаленная работа</option>
+													<option>Вахтовый метод</option>
+												</select>
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Электронная почта  <span> (обязательно)</span></label>
+												<input type="text" class="form-input form-input2">
+											</div>
+										</div>
+									</div>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+								
+								
+							  </div>
+							</div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume">
+						<div class="form-rezume__head d-flex">
+							<img src="img/list.png">
+							<h3 class="form-rezume__heading">
+								Основная информация
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="form-rezume__wrap-body">
+								<div class="form-rezume__left">
+									<div class="wrap-input">
+										<label class="form-label">
+											Фамилия <span> (обязательно)</span>
+										</label>
+										<input type="text" class="form-input">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">
+											Имя <span> (обязательно)</span>
+										</label>
+										<input type="text" class="form-input">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">
+											Отчетство
+										</label>
+										<input type="text" class="form-input">
+									</div>
+								</div>
+								<div class="form-rezume__right">
+									<img src="img/camera.png">
+									<p>
+										Нажмите, чтобы <br>прикрепить фото
+									</p>
+								</div>
+							</div>
+							<div class="block-checbox">
+								<div class="wrap-checbox d-flex">
+									<input type="checkbox">
+									<p>Готовность к командировкам</p>
+								</div>
+								<div class="wrap-checbox wrap-checbox2 d-flex">
+									<input type="checkbox">
+									<p>Готовность к переезду</p>
+								</div>
+							</div>
+							<div class="block-wrapping">
+								<div class="block-wrapping__left">
+									<div class="wrap-input">
+										<label class="form-label">Желаемая должность</label>
+										<input type="text" class="form-input form-input2">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Занятость</label>
+										<select class="form-list">
+											<option>Полная</option>
+											<option>Частичная</option>
+											<option>Проектная</option>
+											<option>Стажировка</option>
+											<option>Волонтерство</option>
+										</select>
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Телефон <span> (обязательно)</span></label>
+										<input type="text" class="form-input form-input2">
+									</div>
+								</div>
+								<div class="block-wrapping__right">
+									<div class="wrap-input">
+										<label class="form-label">Желаемая зарплата</label>
+										<input type="text" class="form-input form-input2 form-wage">
+										<select class="form-list form-list_currency">
+											<option>Валюта</option>
+											<option>руб.</option>
+											<option>дол.</option>
+											<option>тг.</option>
+											<option>евро</option>
+											<option>драм</option>
+											<option>грвн.</option>
+											<option>сом</option>
+											<option>лари</option>
+											<option>манат</option>
+										</select>
+									</div>
+
+									<div class="wrap-input">
+										<label class="form-label">График работы</label>
+										<select class="form-list">
+											<option>Полный день</option>
+											<option>Гибкий график</option>
+											<option>Сменный график</option>
+											<option>Удаленная работа</option>
+											<option>Вахтовый метод</option>
+										</select>
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Электронная почта  <span> (обязательно)</span></label>
+										<input type="text" class="form-input form-input2">
+									</div>
+								</div>
+							</div>
+							<a href="#" class="form-btn">к следующему разделу</a>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseTwo">
+							<div class="form-rezume__head d-flex">
+								<img src="img/personal-info.png">
+								<h3 class="form-rezume__heading">
+									Личная информация
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseTwo" class="collapse" data-parent="#accordion">
+						  <div class="accordion-body">
+							<div class="form-rezume__body">
+								<div class="form-rezume__wrap-bod">
+									<div class="block-wrapping">
+										<div class="block-wrapping__left">
+											<div class="wrap-input">
+												<label class="form-label">Место проживания</label>
+												<input type="text" class="form-input form-input2">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Дата рождения</label>
+												<input type="date" class="form-input form-input_date form-input2">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Семейное плолжение</label>
+												<select class="form-list">
+													<option>Женат</option>
+													<option>Не женат</option>
+												</select>
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Образование</label>
+												<select class="form-list">
+													<option>Высшее</option>
+													<option>Высшее неполное</option>
+													<option>Среднее специальное</option>
+													<option>Среднее неполное</option>
+													<option>Среднее</option>
+												</select>
+											</div>
+										</div>
+										<div class="block-wrapping__right">
+											<div class="wrap-input">
+												<label class="form-label">Гражданство</label>
+												<input type="text" class="form-input form-input2">
+											</div>
+		
+											<div class="wrap-input">
+												<label class="form-label">Пол</label>
+												<select class="form-list">
+													<option>Мужской</option>
+													<option>Женский</option>
+												</select>
+											</div>
+	
+											<div class="block-checbox block-checbox3">
+												<div class="wrap-checbox d-flex">
+													<input type="checkbox">
+													<p>Есть дети</p>
+												</div>
+												<div class="wrap-checbox d-flex">
+													<input type="checkbox">
+													<p>Служба в армии</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="wrapp-btns wrapp-btns_three">
+										<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+										<a href="#" class="form-btn">к следующему разделу</a>
+									</div>
+								</div>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/personal-info.png">
+							<h3 class="form-rezume__heading">
+								Личная информация
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="form-rezume__wrap-bod">
+								<div class="block-wrapping">
+									<div class="block-wrapping__left">
+										<div class="wrap-input">
+											<label class="form-label">Место проживания</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Дата рождения</label>
+											<input type="date" class="form-input form-input_date form-input2">
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Семейное плолжение</label>
+											<select class="form-list">
+												<option>Женат</option>
+												<option>Не женат</option>
+											</select>
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Образование</label>
+											<select class="form-list">
+												<option>Высшее</option>
+												<option>Высшее неполное</option>
+												<option>Среднее специальное</option>
+												<option>Среднее неполное</option>
+												<option>Среднее</option>
+											</select>
+										</div>
+									</div>
+									<div class="block-wrapping__right">
+										<div class="wrap-input">
+											<label class="form-label">Гражданство</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+	
+										<div class="wrap-input">
+											<label class="form-label">Пол</label>
+											<select class="form-list">
+												<option>Мужской</option>
+												<option>Женский</option>
+											</select>
+										</div>
+
+										<div class="block-checbox block-checbox3">
+											<div class="wrap-checbox d-flex">
+												<input type="checkbox">
+												<p>Есть дети</p>
+											</div>
+											<div class="wrap-checbox d-flex">
+												<input type="checkbox">
+												<p>Служба в армии</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wrapp-btns wrapp-btns_three">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+							</div>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseThree">
+							<div class="form-rezume__head d-flex">
+								<img src="img/hammer.png">
+								<h3 class="form-rezume__heading">
+									Опыт работы
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseThree" class="collapse" data-parent="#accordion">
+							<div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="form-rezume__wrap-bod">
+										<div class="block-wrapping">
+											<div class="block-wrapping__left">
+												<div class="wrap-input">
+													<label class="form-label">Название организации</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+											</div>
+											<div class="block-wrapping__right">
+												<div class="wrap-input">
+													<label class="form-label">Какую должность занимали?</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+										
+											</div>
+										</div>
+										<div class="block-wrapping block-wrapping2">
+											<div class="wrap-input">
+												<label class="form-label">Дата начала работы</label>
+												<input type="text" class="form-input form-input3">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Дата увольнения</label>
+												<input type="text" class="form-input form-input3">
+											</div>
+											<div class="wrap-checbox d-flex">
+												<input type="checkbox">
+												<p>настоящее время</p>
+											</div>
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Должностные обязанности и достижения</label>
+											<textarea name="text" class="form-textarea"></textarea>
+										</div>
+										<div class="block-delete d-flex">
+											<img src="img/minus2.png" >
+											<p>удалить место работы</p>
+										</div>
+										
+									</div>
+								</div>
+								<div class="form-rezume__body form-rezume__body2">
+									<div class="form-rezume__wrap-bod">
+										<div class="block-wrapping">
+											<div class="block-wrapping__left">
+												<div class="wrap-input">
+													<label class="form-label">Название организации</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+											</div>
+											<div class="block-wrapping__right">
+												<div class="wrap-input">
+													<label class="form-label">Какую должность занимали?</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+										
+											</div>
+										</div>
+										<div class="block-wrapping block-wrapping2">
+											<div class="wrap-input">
+												<label class="form-label">Дата начала работы</label>
+												<input type="text" class="form-input form-input3">
+											</div>
+											<div class="wrap-input">
+												<label class="form-label">Дата увольнения</label>
+												<input type="text" class="form-input form-input3">
+											</div>
+											<div class="wrap-checbox d-flex">
+												<input type="checkbox">
+												<p>настоящее время</p>
+											</div>
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Должностные обязанности и достижения</label>
+											<textarea name="text" class="form-textarea"></textarea>
+										</div>
+										<div class="delete-wrap">
+											<div class="block-delete d-flex">
+												<img src="img/minus2.png" >
+												<p>удалить место работы</p>
+											</div>
+											<div class="block-delete block-delet_two d-flex">
+												<img src="img/plus2.png" >
+												<p>добавить место работы</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="wrapp-btns_two">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/hammer.png">
+							<h3 class="form-rezume__heading">
+								Опыт работы
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="form-rezume__wrap-bod">
+								<div class="block-wrapping">
+									<div class="block-wrapping__left">
+										<div class="wrap-input">
+											<label class="form-label">Название организации</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+									</div>
+									<div class="block-wrapping__right">
+										<div class="wrap-input">
+											<label class="form-label">Какую должность занимали?</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+								
+									</div>
+								</div>
+								<div class="block-wrapping block-wrapping2">
+									<div class="wrap-input">
+										<label class="form-label">Дата начала работы</label>
+										<input type="text" class="form-input form-input3">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Дата увольнения</label>
+										<input type="text" class="form-input form-input3">
+									</div>
+									<div class="wrap-checbox d-flex">
+										<input type="checkbox">
+										<p>настоящее время</p>
+									</div>
+								</div>
+								<div class="wrap-input">
+									<label class="form-label">Должностные обязанности и достижения</label>
+									<textarea name="text" class="form-textarea"></textarea>
+								</div>
+								<div class="block-delete d-flex">
+									<img src="img/minus2.png" >
+									<p>удалить место работы</p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="form-rezume__body form-rezume__body2">
+							<div class="form-rezume__wrap-bod">
+								<div class="block-wrapping">
+									<div class="block-wrapping__left">
+										<div class="wrap-input">
+											<label class="form-label">Название организации</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+									</div>
+									<div class="block-wrapping__right">
+										<div class="wrap-input">
+											<label class="form-label">Какую должность занимали?</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+								
+									</div>
+								</div>
+								<div class="block-wrapping block-wrapping2">
+									<div class="wrap-input">
+										<label class="form-label">Дата начала работы</label>
+										<input type="text" class="form-input form-input3">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Дата увольнения</label>
+										<input type="text" class="form-input form-input3">
+									</div>
+									<div class="wrap-checbox d-flex">
+										<input type="checkbox">
+										<p>настоящее время</p>
+									</div>
+								</div>
+								<div class="wrap-input">
+									<label class="form-label">Должностные обязанности и достижения</label>
+									<textarea name="text" class="form-textarea"></textarea>
+								</div>
+								<div class="delete-wrap">
+									<div class="block-delete d-flex">
+										<img src="img/minus2.png" >
+										<p>удалить место работы</p>
+									</div>
+									<div class="block-delete block-delet_two d-flex">
+										<img src="img/plus2.png" >
+										<p>добавить место работы</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wrapp-btns_two">
+							<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+							<a href="#" class="form-btn">к следующему разделу</a>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseFour">
+							<div class="form-rezume__head d-flex">
+								<img src="img/cap.png">
+								<h3 class="form-rezume__heading">
+									Образование
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseFour" class="collapse" data-parent="#accordion">
+							<div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="wrap-input">
+										<label class="form-label">Название учебного заведения</label>
+										<input type="text" class="form-input form-input4">
+									</div>
+									<div class="form-rezume__wrap-bod">
+										<div class="block-wrapping">
+											<div class="block-wrapping__left">
+												<div class="wrap-input">
+													<label class="form-label">Факультет</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+												<div class="wrap-input">
+													<label class="form-label">Год окончания обучения</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+												
+											</div>
+											<div class="block-wrapping__right">
+												<div class="wrap-input">
+													<label class="form-label">Специальность</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+		
+												<div class="wrap-input">
+													<label class="form-label">Форма обучения</label>
+													<select class="form-list">
+														<option>Очная</option>
+														<option>Очно-заочная (вечерняя)</option>
+														<option>Заочная</option>
+														<option>Дистанционная</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="delete-wrap delete-wrap2">
+											<div class="block-delete d-flex">
+												<img src="img/minus2.png" >
+												<p>Добавить заведение</p>
+											</div>
+											<div class="block-delete block-delet_two d-flex">
+												<img src="img/plus2.png" >
+												<p>Убрать заведение</p>
+											</div>
+										</div>
+										<div class="wrapp-btns">
+											<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+											<a href="#" class="form-btn">к следующему разделу</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/cap.png">
+							<h3 class="form-rezume__heading">
+								Образование
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="wrap-input">
+								<label class="form-label">Название учебного заведения</label>
+								<input type="text" class="form-input form-input4">
+							</div>
+							<div class="form-rezume__wrap-bod">
+								<div class="block-wrapping">
+									<div class="block-wrapping__left">
+										<div class="wrap-input">
+											<label class="form-label">Факультет</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Год окончания обучения</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										
+									</div>
+									<div class="block-wrapping__right">
+										<div class="wrap-input">
+											<label class="form-label">Специальность</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+
+										<div class="wrap-input">
+											<label class="form-label">Форма обучения</label>
+											<select class="form-list">
+												<option>Очная</option>
+												<option>Очно-заочная (вечерняя)</option>
+												<option>Заочная</option>
+												<option>Дистанционная</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="delete-wrap delete-wrap2">
+									<div class="block-delete d-flex">
+										<img src="img/minus2.png" >
+										<p>Добавить заведение</p>
+									</div>
+									<div class="block-delete block-delet_two d-flex">
+										<img src="img/plus2.png" >
+										<p>Убрать заведение</p>
+									</div>
+								</div>
+								<div class="wrapp-btns">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+							</div>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseFive">
+							<div class="form-rezume__head d-flex">
+								<img src="img/list2.png">
+								<h3 class="form-rezume__heading">
+									Курсы и тренинги
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseFive" class="collapse" data-parent="#accordion">
+							<div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="form-rezume__wrap-bod">
+										<div class="block-wrapping">
+											<div class="block-wrapping__left">
+												<div class="wrap-input">
+													<label class="form-label">Название курса</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+												<div class="wrap-input">
+													<label class="form-label">Год окончания обучения</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+												
+											</div>
+											<div class="block-wrapping__right">
+												<div class="wrap-input">
+													<label class="form-label">Название учебного заведения</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+												<div class="wrap-input">
+													<label class="form-label">Продолжительность</label>
+													<input type="text" class="form-input form-input2">
+												</div>
+											</div>
+										</div>
+										<div class="delete-wrap delete-wrap3">
+											<div class="block-delete d-flex">
+												<img src="img/minus2.png" >
+												<p>Добавить курс</p>
+											</div>
+											<div class="block-delete block-delet_two d-flex">
+												<img src="img/plus2.png" >
+												<p>Убрать курс</p>
+											</div>
+										</div>
+										<div class="wrapp-btns">
+											<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+											<a href="#" class="form-btn">к следующему разделу</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/list2.png">
+							<h3 class="form-rezume__heading">
+								Курсы и тренинги
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="form-rezume__wrap-bod">
+								<div class="block-wrapping">
+									<div class="block-wrapping__left">
+										<div class="wrap-input">
+											<label class="form-label">Название курса</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Год окончания обучения</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										
+									</div>
+									<div class="block-wrapping__right">
+										<div class="wrap-input">
+											<label class="form-label">Название учебного заведения</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+										<div class="wrap-input">
+											<label class="form-label">Продолжительность</label>
+											<input type="text" class="form-input form-input2">
+										</div>
+									</div>
+								</div>
+								<div class="delete-wrap delete-wrap3">
+									<div class="block-delete d-flex">
+										<img src="img/minus2.png" >
+										<p>Добавить курс</p>
+									</div>
+									<div class="block-delete block-delet_two d-flex">
+										<img src="img/plus2.png" >
+										<p>Убрать курс</p>
+									</div>
+								</div>
+								<div class="wrapp-btns">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+							</div>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseSix">
+							<div class="form-rezume__head d-flex">
+								<img src="img/computer.png">
+								<h3 class="form-rezume__heading">
+									Знания языков и компьютера
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseSix" class="collapse" data-parent="#accordion">
+							<div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="wrap-input">
+										<label class="form-label">Какие языки Вы знаете</label>
+										<input type="text" class="form-input form-input4">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Знания компьютерных программ и навыков</label>
+										<input type="text" class="form-input form-input4">
+									</div>
+									<div class="form-rezume__wrap-bod">
+										
+										<div class="wrapp-btns">
+											<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+											<a href="#" class="form-btn">к следующему разделу</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/computer.png">
+							<h3 class="form-rezume__heading">
+								Знания языков и компьютера
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="wrap-input">
+								<label class="form-label">Какие языки Вы знаете</label>
+								<input type="text" class="form-input form-input4">
+							</div>
+							<div class="wrap-input">
+								<label class="form-label">Знания компьютерных программ и навыков</label>
+								<input type="text" class="form-input form-input4">
+							</div>
+							<div class="form-rezume__wrap-bod">
+								
+								<div class="wrapp-btns">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+									<a href="#" class="form-btn">к следующему разделу</a>
+								</div>
+							</div>
+						</div>
+					</form> -->
+					<div class="accordion-block form-rezume form-rezume-personal">
+						<div class="accordion-header">
+						  <a class="accordion-link d-flex" data-toggle="collapse" href="#collapseSeven">
+							<div class="form-rezume__head d-flex">
+								<img src="img/folder.png">
+								<h3 class="form-rezume__heading">
+									Дополнительная информация
+								</h3>
+							</div>
+						  </a>
+						</div>
+						<div id="collapseSeven" class="collapse" data-parent="#accordion">
+							<div class="accordion-body">
+								<div class="form-rezume__body">
+									<div class="wrap-input">
+										<label class="form-label">Водительские права (категория)</label>
+										<div class="categories">
+											<span class="categories__list">A</span>
+											<span class="categories__list">B</span>
+											<span class="categories__list">C</span>
+											<span class="categories__list">D</span>
+											<span class="categories__list">E</span>
+											<span class="categories__list">TM</span>
+											<span class="categories__list">TB</span>
+											<span class="categories__list">M</span>
+										</div>
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Личные качества</label>
+										<input type="text" class="form-input form-input4">
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Ваши увлечения</label>
+										<textarea name="text" class="form-textarea form-textarea2"></textarea>
+									</div>
+									<div class="wrap-input">
+										<label class="form-label">Дополнительная информация о Вас</label>
+										<textarea name="text" class="form-textarea form-textarea2"></textarea>
+									</div>
+									<div class="form-rezume__wrap-bod">
+										<div class="wrapp-btns">
+											<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <form class="form-rezume form-rezume-personal">
+						<div class="form-rezume__head d-flex">
+							<img src="img/folder.png">
+							<h3 class="form-rezume__heading">
+								Дополнительная информация
+							</h3>
+						</div>
+						<div class="form-rezume__body">
+							<div class="wrap-input">
+								<label class="form-label">Водительские права (категория)</label>
+								<div class="categories">
+									<span class="categories__list">A</span>
+									<span class="categories__list">B</span>
+									<span class="categories__list">C</span>
+									<span class="categories__list">D</span>
+									<span class="categories__list">E</span>
+									<span class="categories__list">TM</span>
+									<span class="categories__list">TB</span>
+									<span class="categories__list">M</span>
+								</div>
+							</div>
+							<div class="wrap-input">
+								<label class="form-label">Личные качества</label>
+								<input type="text" class="form-input form-input4">
+							</div>
+							<div class="wrap-input">
+								<label class="form-label">Ваши увлечения</label>
+								<textarea name="text" class="form-textarea form-textarea2"></textarea>
+							</div>
+							<div class="wrap-input">
+								<label class="form-label">Дополнительная информация о Вас</label>
+								<textarea name="text" class="form-textarea form-textarea2"></textarea>
+							</div>
+							<div class="form-rezume__wrap-bod">
+								<div class="wrapp-btns">
+									<a href="#" class="form-btn form-btn2">к предыдущему разделу</a>
+								</div>
+							</div>
+						</div>
+					</form> -->
+					<div class="agreement d-flex">
+						<input type="checkbox">
+						<p>Соглашаюсь с условиями <a href="#">Пользовательского соглашения</a></p>
+					</div>
+					<a href="#" class="btn btn-view">ПЕРЕЙТИ К ПРОСМОТРУ</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="latest-resume" id="latest-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="latest__heading">
+						ПОСЛЕДНИЕ СОСТАВЛЕННЫЕ РЕЗЮМЕ 
+					</h3>
+					
+				</div>
+				<div class="col-xl-5 col-lg-4  offset-xl-1 offset-lg-2 col-md-6">
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+					<p class="resume__text"><span class="resume__name">Роман </span>25 лет - менеджер <span class="resume__time">28 минут назад</span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="company" id="company">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="company__heading">
+						РАБОТАЙ В БОЛЬШОЙ КОМПАНИИ
+					</h2>
+					<p class="company__text">
+						Наши клиенты устроились на работу в крупнейшие компании
+					</p>
+				</div>
+				<div class="col-lg-12">
+					<div class="brands">
+						<img src="img/kazmunay.png" class="brands__logo">
+						<img src="img/air-astana.png" class="brands__logo">
+						<img src="img/h-m.png" class="brands__logo">
+						<img src="img/sportmaster.png" class="brands__logo">
+					</div>
+					<div class="brands brands_media">
+						<img src="img/5.png" class="brands__logo">
+						<img src="img/aeroflot.png" class="brands__logo">
+						<img src="img/gl.png" class="brands__logo">
+					</div>
+					<div class="brands brands_two">
+						<img src="img/kcell.png" class="brands__logo">
+						<img src="img/gazprom.png" class="brands__logo">
+						<img src="img/12mouns.png" class="brands__logo">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-md-4 col-sm-6">
+					<a href="#" class="footer__text">
+						Написать в техподдержку
+					</a>
+					<a href="#" class="footer__text2">
+						Пользовательское соглашение
+					</a>
+					<p class="footer__text3">
+						© 2013 - 2021 - biznesinfo.kz
+					</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="#" class="footer__text">
+						Шаблоны документов
+					</a>
+					<a href="#" class="footer__text">
+						Сервисы проверок
+					</a>
+					<a href="#" class="footer__text">
+						Примеры резюме
+					</a>	
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a href="#" class="footer__text">
+						О конструкторе onlineRezume
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="myModal" id="myModal">
+		<h3 class="myModal__title">
+			Оформление покупки
+		</h3>
+		<div class="line-modal"></div>
+		<p class="modal-text">
+			Скачать документ, Вы сможете сразу после оплаты. Копия документа будет выслана на указанную почту.
+		</p>
+		<div class="input-wrapping">
+			<label class="check-label">Укажите email для получения ссылки на документ:</label>
+			<input type="text" class="check-input">
+		</div>
+		<div class="input-wrapping input-wrapping_two">
+			<label class="check-label">Укажите код купона на скидку (при наличии):</label>
+			<div class="input-wrapping2 d-flex">
+				<input type="text" class="check-input check-input_two">
+				<span>?</span>
+				<a>Как получить скидку?</a>
+			</div>	
+		</div>
+		<img src="img/user_agreement.png" alt="verified" class="verif">
+		<button type="submit" class="btn btn-modal">
+			Оплатить 490 тенге
+		</button>
+		
+		<span id="myModal__close" class="close"></span>
+	</div>
+
+	<div id="myOverlay"></div>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
