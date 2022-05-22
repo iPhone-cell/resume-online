@@ -1969,7 +1969,6 @@ p {
 article {
 	background: #EBF0F4;
 	font-size: 20px;
-	text-align: justify;
 }
 article > .container {
 	background: #fff;
@@ -2069,12 +2068,12 @@ article li a {
 	display: none;
 }
 .list-checks li .checkmark{
-	-webkit-color: #3bd826;
 	color: #3bd826;
 	position: absolute;
 	left: 0;
 	font-size: 24px;
 }
+.checkmark img {}
 .additional-reading {
 	background: #daeef3;
 	padding: 20px 50px;
