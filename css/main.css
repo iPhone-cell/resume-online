@@ -1969,6 +1969,7 @@ p {
 article {
 	background: #EBF0F4;
 	font-size: 20px;
+	text-align: justify;
 }
 article > .container {
 	background: #fff;
@@ -2083,6 +2084,7 @@ article li a {
 }
 .additional-reading span {
 	display: inline-block;
+	font-size: 18px;
 }
 .additional-reading img {
 	width: 100px;
@@ -2124,6 +2126,7 @@ article li a {
 	height: 15px;
 	background-color: #92cddc;
 	border-radius: 50px;
+	margin-right: 5px;
 }
 .table-wrap {
 	padding:50px;
@@ -2193,9 +2196,6 @@ article li a {
 	.additional-reading img {
 		width: 50px;
 	}
-	.additional-reading span  {
-		font-size: 14px;
-	}
 }
 @media (max-width: 767px) {
 	article .resume-example__btn {
@@ -2225,7 +2225,7 @@ article li a {
 	}
 	.additional-reading {
 		padding-left: 5px;
-		padding-right: 0;
+		padding-right: 10px;
 	}
 	.additional-reading img {
 		width: 50px;
@@ -2253,6 +2253,9 @@ article li a {
 	.additional-reading {
 		flex-wrap: wrap;
 		padding-left: 20px;
+	}
+	.additional-reading span {
+		font-size: 14px;
 	}
 	.additional-reading  img {
 		margin-bottom: 10px;
